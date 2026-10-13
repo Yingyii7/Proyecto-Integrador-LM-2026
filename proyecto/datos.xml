@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Más datos sobre las series y películas-->
+<catalogo propietario="yingyii7">
+    <elemento id="001">
+        <Nombre>Off campus</Nombre>
+        <Protagonistas>Belmont Cameli-Ella Bright-Stephen Kalyn-Mika Abdalla-Antonio Cipriano-India Fowler-Jalen Thomas</Protagonistas>
+        <Fecha>13 de mayo de 2026</Fecha>
+        <Categoria>Drama romantico</Categoria>
+        <Directora>Louisa Levy</Directora>
+    </elemento>
+
+    <elemento id="002"> 
+        <Nombre>The summer i turned pretty</Nombre>
+        <Protagonistas>Lola tung-Christopher Briney-Gavin Casalegno-Sean Kaufman-Jackie chung</Protagonistas>
+        <Fecha>17 de junio de 2022</Fecha>
+        <Categoria>Drama romantico</Categoria>
+        <Directora>Erica Dunton y Jeff Chan</Directora>
+    </elemento>
+        
+    <elemento id="003">
+        <Nombre>La timonel</Nombre>
+        <Protagonistas>Miku Martineau-Sam Braun-Kyle Clark</Protagonistas>
+        <Fecha>10 de septiembre de 2026</Fecha>
+        <Categoria>Drama romance y deporte</Categoria>
+        <Directora>Vivian Lin-Morwyn Brebner-Simon Barry-Norman Buckley-Amanda Tapping-Jacquie Gould-Alysse Leite</Directora>
+    </elemento>
+
+
+</catalogo>
