@@ -25,5 +25,29 @@
         <Directora>Vivian Lin-Morwyn Brebner-Simon Barry-Norman Buckley-Amanda Tapping-Jacquie Gould-Alysse Leite</Directora>
     </elemento>
 
+    <elemento id="004">
+        <Nombre>White Chicks</Nombre>
+        <Protagonistas>Marlon Wayans-Shawn Wayans-Terry Crews-Busy Philipps-Jennifer Carpenter-Jessica Cauffiel</Protagonistas>
+        <Fecha>23 de junio de 2004</Fecha>
+        <Categoria>Comedia</Categoria>
+        <Directora>Keenen Ivory Wayans</Directora>
+    </elemento>
+
+     <elemento id="005">
+        <Nombre>Uncharted</Nombre>
+        <Protagonistas>Tom Holland-Mark Wahlberg-Sophia Ali-Tati Gabrielle</Protagonistas>
+        <Fecha>11 de febrero de 2022</Fecha>
+        <Categoria>Accion y aventura</Categoria>
+        <Directora>Ruben Fleischer</Directora>
+    </elemento>
+
+     <elemento id="006">
+        <Nombre>No way home</Nombre>
+        <Protagonistas>Tom Holland-Zendaya-Andrew Garfield-Tobey Maguire</Protagonistas>
+        <Fecha>16 de diciembre de 2021</Fecha>
+        <Categoria>Accion, ciencia ficcion y aventura</Categoria>
+        <Directora>Jon Watts</Directora>
+    </elemento>
+
 
 </catalogo>
