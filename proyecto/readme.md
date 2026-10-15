@@ -16,4 +16,4 @@ Palabra del día: meta
 Qué he hecho en esta entrega  
 
 En esta entrega he estructurado el proyecto integrador creando un sitio web básico con HTML (index.html) y un catálogo estructurado con XML (datos.xml). He incluido secciones
-sobre mis películas y series recomendadas con imágenes y formateo de texto, además de organizar los datos equivalentes en XML respetando todas las reglas de sintaxis e incluyendo atributos propios.
+sobre mis películas y series recomendadas con imágenes y formateo de texto, además de organizar los datos equivalentes en XML respetando todas las reglas de sintaxis e incluyendo atributos propios. He incluido datos sobre 3 películas y 3 series populares, como los protagonistas principales, su fecha de estreno y otros.
