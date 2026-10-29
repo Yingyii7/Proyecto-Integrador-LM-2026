@@ -32,7 +32,7 @@ actores.html      |Actores | CineVibe     | Los actores, sus peliculas y series 
 director.html     |Director | CineVibe    | Los directores y que dirigieron                |
 
 ## Errores y corrección:
-- actores.html: abrí un <div>, que me sobrara, y la borre.
+- actores.html: abrí un <div>, que me sobrara, y la borre. 
 - director.html: ningún fallo.
 - datos.xml: error de esquema (documento XML sin espacio de nombres). (No entiendo el fallo, no se como solucionarlo).
 - Series.pelis.html y index.html: errores de elemento
