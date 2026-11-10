@@ -4,18 +4,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Series-Pelis | CineVibe</title>
+    <title>Contacto | CineVibe</title>
     <meta name="description" content="Descubre series y peliculas para todos los gustos. ¡Encuentra tu proxima obsesion y vibra con cada historia!">
     <meta name="keywords" content="Capitulos, risas, picoteo, diversion">
     <meta name="author" content="Yingyi Li Pan">
 </head>
 
 <body>
+    
+    <!--Cabecera-->
+    <header>
+        <h1>Contacto</h1>
+    </header>
 
-    <div>
+    <div class="formulario">
+        <form action="#" method="post">
 
+            <!--Datos personales-->
+            <fieldset>
+                <legend>Tus datos</legend>
+                <div>
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre" name="nombre" required minlength="3" maxlength="50">
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="tu@email.com" maxlength="50">
+                </div>
+
+                <div>
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" required placeholder="652266699">
+                </div>
+
+                <div>
+                    <label for="edad">Edad:</label>
+                    <input type="number" id="edad" name="edad">
+                </div>
+            </fieldset>
+
+            <!--Consulta-->
+            <fieldset>
+                <legend>Tu consulta</legend>
+                <div>
+                    <!-- el <br> es para salto de línea-->
+                    <label for="tu serie favorita">Tu serie favorita:</label><br>
+
+                    <select id="tu serie favorita" name="serie_favorita">
+                        <option value="">--Selecciona una serie--</option>
+                        <option value="Off-campus">Off-campus</option>
+                        <option value="summer-pretty">The Summer I Turn Pretty</option>
+                        <option value="la-timonel">La timonel</option>
+                        <option value="otra">Otra</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <label for="plataforma">Plataforma que utilizas:</label><br>
+
+                    <input type="checkbox" id="plat-netflix" name="plataforma" value="Netflix">
+                    <label for="plat-netflix">Netflix</label>
+
+                    <input type="checkbox" id="plat-prime" name="plataforma" value="Amazon Prime">
+                    <label for="plat-prime">Amazon Prime</label>
+
+                    <input type="checkbox" id="plat-hbo" name="plataforma" value="HBO">
+                    <label for="plat-hbo">HBO</label>
+                </div>
+
+                <div>
+                    <label for="Que opinas del catalogo actual?">¿Qué opinas del catálogo actual?</label><br>
+
+                    <input type="radio" id="opinion-bueno" name="opinion" value="Genial">
+                    <label for="opinion-genial">Genial</label>
+
+                    <input type="radio" id="opinion-regular" name="opinion" value="Bien">
+                    <label for="opinion-bien">Bien</label>
+
+                    <input type="radio" id="opinion-malo" name="opinion" value="Malo">
+                    <label for="opinion-malo">Malo</label>
+                </div>
+
+                <div>
+                    <label for="comentario">Comentario:</label><br>
+                    <textarea id="comentario" name="comentario" rows="4" maxlength="200" placeholder="Que opinas?"></textarea>
+                </div>
+            </fieldset>
+
+            <div class="boton">
+                <button type="submit">Enviar</button>
+                <button type="reset">Borrar datos</button>
+            </div>
+
+        </form>
     </div>
     
+    <!-- Pie de pagina -->
+    <footer>
+        <p>&copy; 2026 Yingyi Li Pan</p>
+    </footer>
+
 </body>
 
 </html>
