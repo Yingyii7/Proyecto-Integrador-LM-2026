@@ -38,3 +38,7 @@ Cosas que le faltan a mi index.html inicial:
 - Series.pelis.html y index.html: errores de elemento
 
 ## UD5 · Tablas y formularios
+La URL del cuestionario cuando lo cambio a "get": http://127.0.0.1:5500/proyecto/contacto.html?nombre=yingyi&email=jennyingyi7%40gmail.com&telefono=652946697&edad=19&serie_favorita=Off-campus&plataforma=Amazon+Prime&opinion=Genial&comentario=hola+mundo# 
+
+¿Por qué usamos "post" en vez de "get"?
+Los datos introducidos en el formulario, son datos personales. Si usamos "get" los datos del cuestionario se publica en la barra de direcciones de la URL. En caso de usar "post" los oculta. Por eso usamos "post" y no "get".
