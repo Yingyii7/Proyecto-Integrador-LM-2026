@@ -24,7 +24,7 @@ Cosas que le faltan a mi index.html inicial:
 3. Se debe organizar el contenido con títulos jerácquicos (<h1>, <h2> y <h3>) para mantener una estructura clara y ordenada.
 
 ## Mapa del sistio
-|      Fichero     |           title         |                   Qué contiene                 |
+|     Fichero      |          title          |                  Qué contiene                  |
 |------------------|-------------------------|------------------------------------------------|
 |index.html        |Inicio      \| CineVibe  | Portada, presentación de las series y pelucilas|
 |series.pelis.html |Series-Pelis\| CineVibe  | Datos generales                                |
