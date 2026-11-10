@@ -8,7 +8,7 @@ Tema elegido:
 El tema principal de este proyecto es una web de películas.
 
 ¿Por qué he elegido este tema?
-Personalmente me gusta mucho pasar tiempo con mi familia o con amigos viendo una película graciosa o de miedo en algunas ocasiones. Considero que es una temática ideal para este proyecto, ya que ofrece un campo de temas muy amplio y entretenido para estructurar datos, redactar contenidos y desarrollar la web a lo largo de este curso.
+Personalmente me gusta mucho pasar tiempo con mi familia o con amigos viendo una película graciosa o de miedo en algunas ocasiones. Considero que es una temática ideal para este proyecto, ya que ofrece un campo de temas muy amplio y entretenido para estructurar datos, redactar contenidos y desarrollar la web a lo largo de este curso. 
 
 *Palabra del día: dia*
  
@@ -36,3 +36,5 @@ Cosas que le faltan a mi index.html inicial:
 - director.html: ningún fallo.
 - datos.xml: error de esquema (documento XML sin espacio de nombres). (No entiendo el fallo, no se como solucionarlo).
 - Series.pelis.html y index.html: errores de elemento
+
+## UD5 · Tablas y formularios
