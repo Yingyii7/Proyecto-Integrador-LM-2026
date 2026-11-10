@@ -24,21 +24,28 @@ Cosas que le faltan a mi index.html inicial:
 3. Se debe organizar el contenido con títulos jerácquicos (<h1>, <h2> y <h3>) para mantener una estructura clara y ordenada.
 
 ## Mapa del sistio
-|     Fichero      |          title          |                  Qué contiene                  |
-|------------------|-------------------------|------------------------------------------------|
-|index.html        |Inicio      \| CineVibe  | Portada, presentación de las series y pelucilas|
-|series.pelis.html |Series-Pelis\| CineVibe  | Datos generales                                |
-|actores.html      |Actores     \| CineVibe  | Los actores, sus peliculas y series            |
-|director.html     |Director    \| CineVibe  | Los directores y que dirigieron                |
+|     Fichero      |          title          |                   Qué contiene                  |
+|------------------|-------------------------|-------------------------------------------------|
+|index.html        |Inicio      \| CineVibe  | Portada, presentación de las series y pelucilas |
+|series.pelis.html |Series-Pelis\| CineVibe  | Datos generales                                 |
+|actores.html      |Actores     \| CineVibe  | Los actores, sus peliculas y series             |
+|director.html     |Director    \| CineVibe  | Los directores y que dirigieron                 |
+|contacto.hmtl     |Contacto    \| CineVibe  | Custionario para el usuario                     |
 
 ## Errores y corrección:
-- actores.html: abrí un <div>, que me sobrara, y la borre. 
+- actores.html: ningún fallo.
 - director.html: ningún fallo.
-- datos.xml: error de esquema (documento XML sin espacio de nombres). (No entiendo el fallo, no se como solucionarlo).
-- Series.pelis.html y index.html: errores de elemento
+- datos.xml: ningún fallo.
+- Series.pelis.html: ningñun fallo.
+- index.html: nigún fallo.
+- contacto.html: 
+    - error líneas 52, 54, 77: poner - en vez de poner espacios en blancos.
+    - error líneas 79, 82: el id tiene que ser igual al que pone en el for.
 
 ## UD5 · Tablas y formularios
 La URL del cuestionario cuando lo cambio a "get": http://127.0.0.1:5500/proyecto/contacto.html?nombre=yingyi&email=jennyingyi7%40gmail.com&telefono=652946697&edad=19&serie_favorita=Off-campus&plataforma=Amazon+Prime&opinion=Genial&comentario=hola+mundo# 
 
 ¿Por qué usamos "post" en vez de "get"?
 Los datos introducidos en el formulario, son datos personales. Si usamos "get" los datos del cuestionario se publica en la barra de direcciones de la URL. En caso de usar "post" los oculta. Por eso usamos "post" y no "get".
+
+¿Qué he hecho en esta unidad?

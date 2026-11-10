@@ -25,7 +25,7 @@
                 <legend>Tus datos</legend>
                 <div>
                     <label for="nombre">Nombre completo:</label>
-                    <input type="text" id="nombre" name="nombre" required minlength="3" maxlength="50" placeholder="Noombre Apellido">
+                    <input type="text" id="nombre" name="nombre" required minlength="3" maxlength="50" placeholder="Nombre Apellido">
                 </div>
 
                 <div>
@@ -49,9 +49,9 @@
                 <legend>Tu consulta</legend>
                 <div>
                     <!-- el <br> es para salto de línea-->
-                    <label for="tu serie favorita">Serie favorita:</label><br>
+                    <label for="tu-serie-favorita">Serie favorita:</label><br>
 
-                    <select id="tu serie favorita" name="serie_favorita">
+                    <select id="tu-serie-favorita" name="serie_favorita">
                         <option value="">--Selecciona una serie--</option>
                         <option value="Off-campus">Off-campus</option>
                         <option value="summer-pretty">The Summer I Turn Pretty</option>
@@ -61,7 +61,7 @@
                 </div>
                 
                 <div>
-                    <label for="plataforma">Plataforma que utilizas:</label><br>
+                    <span>Plataforma que utilizas:</span><br>
 
                     <input type="checkbox" id="plat-netflix" name="plataforma" value="Netflix">
                     <label for="plat-netflix">Netflix</label>
@@ -74,12 +74,12 @@
                 </div>
 
                 <div>
-                    <label for="Que opinas del catalogo actual?">¿Qué opinas del catálogo actual?</label><br>
+                    <span>¿Qué opinas del catálogo actual?</span><br>
 
-                    <input type="radio" id="opinion-bueno" name="opinion" value="Genial">
+                    <input type="radio" id="opinion-genial" name="opinion" value="Genial">
                     <label for="opinion-genial">Genial</label>
 
-                    <input type="radio" id="opinion-regular" name="opinion" value="Bien">
+                    <input type="radio" id="opinion-bien" name="opinion" value="Bien">
                     <label for="opinion-bien">Bien</label>
 
                     <input type="radio" id="opinion-malo" name="opinion" value="Malo">
@@ -87,7 +87,7 @@
                 </div>
 
                 <div>
-                    <label for="comentario">Comentario:</label><br>
+                    <span>Comentario:</span><br>
                     <textarea id="comentario" name="comentario" rows="4" maxlength="200"></textarea>
                 </div>
             </fieldset>
