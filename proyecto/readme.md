@@ -41,6 +41,7 @@ Cosas que le faltan a mi index.html inicial:
 - contacto.html: 
     - error líneas 52, 54, 77: poner - en vez de poner espacios en blancos.
     - error líneas 79, 82: el id tiene que ser igual al que pone en el for.
+    - error líneas 64, 77, 90: usar <span> en vez de <Label>, porque sirve para texto normal y no una entrada interactivo.
 
 ## UD5 · Tablas y formularios
 La URL del cuestionario cuando lo cambio a "get": http://127.0.0.1:5500/proyecto/contacto.html?nombre=yingyi&email=jennyingyi7%40gmail.com&telefono=652946697&edad=19&serie_favorita=Off-campus&plataforma=Amazon+Prime&opinion=Genial&comentario=hola+mundo# 
@@ -49,3 +50,4 @@ La URL del cuestionario cuando lo cambio a "get": http://127.0.0.1:5500/proyecto
 Los datos introducidos en el formulario, son datos personales. Si usamos "get" los datos del cuestionario se publica en la barra de direcciones de la URL. En caso de usar "post" los oculta. Por eso usamos "post" y no "get".
 
 ¿Qué he hecho en esta unidad?
+En esta unidad he aprendido a hacer formularios, donde puedes hcaer unas series de preguntas para informarte del usuario, como por ejemplo el nombre, el telefono, y otros datos personales, en los cuales podria ser de tipo "get" (te sale los datos en la URL) o en "post" (losn datos no se va a publicar). Además, también aprendí otros comandos para mejorar la tabla de información.
